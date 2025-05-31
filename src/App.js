@@ -209,7 +209,7 @@ export default function Game() {
       // The button is created with an onClick event handler
       // The jumpTo function is called with the move number
       // key is set to the move number
-      <li key={Math.random()} style={{listStyleType: 'lower-roman'}}>
+      <li key={move}>
         {/* // The button is created with an onClick event handler */}
         {/* // description is set to "Go to move #" plus the move number */}
         <button onClick={() => jumpTo(move)}>{description}</button>
